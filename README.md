@@ -1,5 +1,7 @@
-# PD Jewellers
+<img width="1292" height="468" alt="image" src="https://github.com/user-attachments/assets/f0340fca-c8cb-4ddb-b928-fb410f9aca83" />
 
+
+## PD Jewellers
 A full-stack MERN e-commerce platform for jewellery business in Sri Lanka. Its novelty feature is a live **3D jewellery configurator** paired with camera-based **AR try-on**.
 
 **Live site:** Coming Soon
@@ -37,6 +39,27 @@ The whole system connects three pipelines: 3D rendering, live pricing, and AR ov
 3. At the same time, the live gold rate flows through `PricingContext` and the `price.ts` helpers to show an indicative "Starting from" price that reacts to the metal and stone choice.
 4. If the customer switches to AR, the same model is handed to a live camera feed. MediaPipe tracks the hand or neck landmark and overlays the model on it in real time. Size multipliers are widened here so differences read clearly on a phone.
 5. The customer can save a screenshot of the try-on (`preserveDrawingBuffer: true`), or add the design to cart / save it.
+
+
+----------------
+<details>
+<summary>Click to view screenshots</summary>
+<br>
+
+<img width="1312" height="699" alt="image1" src="https://github.com/user-attachments/assets/2c1241b9-0040-4798-84a1-3b343c06c8be" />
+
+<img width="1776" height="837" alt="image2" src="https://github.com/user-attachments/assets/e87c0cba-fa28-4d94-8521-064eea668f84" />
+
+<img width="1752" height="862" alt="image3" src="https://github.com/user-attachments/assets/ad425b96-015c-440c-8d7e-bd175f28bb84" />
+
+<img width="1752" height="862" alt="image3" src="https://github.com/user-attachments/assets/ad425b96-015c-440c-8d7e-bd175f28bb84" />
+
+<img width="1817" height="860" alt="image6" src="https://github.com/user-attachments/assets/b93c161b-10d2-4620-aa3e-e7df32aed3c8" />
+
+<img width="1835" height="856" alt="image5" src="https://github.com/user-attachments/assets/d5548494-dbb1-4369-84be-91b81e1ecb54" />
+
+</details>
+----------------------------------------------------------------------------------------------------------------------------------------
 
 **Process diagram:**
 
